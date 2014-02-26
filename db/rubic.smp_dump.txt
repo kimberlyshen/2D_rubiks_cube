@@ -1,0 +1,104 @@
+
+State Machine - |rubic|debounce:r7|y
+Name y.D y.C y.B y.A 
+y.A 0 0 0 0 
+y.B 0 0 1 1 
+y.C 0 1 0 1 
+y.D 1 0 0 1 
+
+State Machine - |rubic|debounce:r8|y
+Name y.D y.C y.B y.A 
+y.A 0 0 0 0 
+y.B 0 0 1 1 
+y.C 0 1 0 1 
+y.D 1 0 0 1 
+
+State Machine - |rubic|debounce:r6|y
+Name y.D y.C y.B y.A 
+y.A 0 0 0 0 
+y.B 0 0 1 1 
+y.C 0 1 0 1 
+y.D 1 0 0 1 
+
+State Machine - |rubic|debounce:r5|y
+Name y.D y.C y.B y.A 
+y.A 0 0 0 0 
+y.B 0 0 1 1 
+y.C 0 1 0 1 
+y.D 1 0 0 1 
+
+State Machine - |rubic|debounce:r4|y
+Name y.D y.C y.B y.A 
+y.A 0 0 0 0 
+y.B 0 0 1 1 
+y.C 0 1 0 1 
+y.D 1 0 0 1 
+
+State Machine - |rubic|debounce:r3|y
+Name y.D y.C y.B y.A 
+y.A 0 0 0 0 
+y.B 0 0 1 1 
+y.C 0 1 0 1 
+y.D 1 0 0 1 
+
+State Machine - |rubic|debounce:r2|y
+Name y.D y.C y.B y.A 
+y.A 0 0 0 0 
+y.B 0 0 1 1 
+y.C 0 1 0 1 
+y.D 1 0 0 1 
+
+State Machine - |rubic|debounce:r1|y
+Name y.D y.C y.B y.A 
+y.A 0 0 0 0 
+y.B 0 0 1 1 
+y.C 0 1 0 1 
+y.D 1 0 0 1 
+
+State Machine - |rubic|engine:e|y
+Name y.H_rand y.G_rand y.F_rand y.E_rand y.D_rand y.C_rand y.B_rand y.A_rand y.H y.G y.F y.E y.D y.C y.B y.A 
+y.A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+y.B 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+y.C 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+y.D 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+y.E 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+y.F 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+y.G 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+y.H 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+y.A_rand 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+y.B_rand 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+y.C_rand 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+y.D_rand 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+y.E_rand 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+y.F_rand 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+y.G_rand 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+y.H_rand 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |rubic|engine:e|draw:d|y
+Name y.S6 y.S5 y.S4 y.S3 y.S2 y.S1 y.G y.F y.E y.D y.C y.B y.A 
+y.A 0 0 0 0 0 0 0 0 0 0 0 0 0 
+y.B 0 0 0 0 0 0 0 0 0 0 0 1 1 
+y.C 0 0 0 0 0 0 0 0 0 0 1 0 1 
+y.D 0 0 0 0 0 0 0 0 0 1 0 0 1 
+y.E 0 0 0 0 0 0 0 0 1 0 0 0 1 
+y.F 0 0 0 0 0 0 0 1 0 0 0 0 1 
+y.G 0 0 0 0 0 0 1 0 0 0 0 0 1 
+y.S1 0 0 0 0 0 1 0 0 0 0 0 0 1 
+y.S2 0 0 0 0 1 0 0 0 0 0 0 0 1 
+y.S3 0 0 0 1 0 0 0 0 0 0 0 0 1 
+y.S4 0 0 1 0 0 0 0 0 0 0 0 0 1 
+y.S5 0 1 0 0 0 0 0 0 0 0 0 0 1 
+y.S6 1 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |rubic|engine:e|draw:d|face:f|y
+Name y.S4 y.S3 y.S2 y.S1 y.F y.E y.D y.C y.B y.A 
+y.A 0 0 0 0 0 0 0 0 0 0 
+y.B 0 0 0 0 0 0 0 0 1 1 
+y.C 0 0 0 0 0 0 0 1 0 1 
+y.D 0 0 0 0 0 0 1 0 0 1 
+y.E 0 0 0 0 0 1 0 0 0 1 
+y.F 0 0 0 0 1 0 0 0 0 1 
+y.S1 0 0 0 1 0 0 0 0 0 1 
+y.S2 0 0 1 0 0 0 0 0 0 1 
+y.S3 0 1 0 0 0 0 0 0 0 1 
+y.S4 1 0 0 0 0 0 0 0 0 1 

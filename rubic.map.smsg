@@ -1,0 +1,6 @@
+Info (10281): Verilog HDL Declaration information at rubic.v(98): object "y" differs only in case from object "Y" in the same scope
+Info (10281): Verilog HDL Declaration information at rubic.v(271): object "y" differs only in case from object "Y" in the same scope
+Info (10281): Verilog HDL Declaration information at rubic.v(272): object "D" differs only in case from object "d" in the same scope
+Info (10281): Verilog HDL Declaration information at rubic.v(816): object "y" differs only in case from object "Y" in the same scope
+Info (10281): Verilog HDL Declaration information at rubic.v(814): object "F" differs only in case from object "f" in the same scope
+Info (10281): Verilog HDL Declaration information at rubic.v(1104): object "y" differs only in case from object "Y" in the same scope
